@@ -6,6 +6,14 @@
 >
 > 项目已安装路由库`uni-mini-router`并已配置好。文档地址：[https://moonofweisheng.github.io/uni-mini-router](https://moonofweisheng.github.io/uni-mini-router/)
 
+> ## 运行本项目
+> 1. 克隆项目       
+> `git clone git@github.com:moqi-y/uniapp-vue-cli.git`
+> 2. 安装依赖       
+> `npm install`
+> 3. 运行项目       
+>   `npm run dev:h5`  # 运行h5端        
+
 ## 项目中路由的使用方法
 1. 在页面中引入路由并获取路由实例
 ```javascript
@@ -56,14 +64,7 @@ router.beforeEach((to, from, next) => {
 })
 ```
 
-# 从零搭建基于 vue-cli 的 uni-app 项目
-> ## 运行本项目
-> 1. 克隆项目
-> 2. 安装依赖       
-> `npm install`
-> 3. 运行项目       
->   `npm run dev:h5`  # 运行h5端        
-
+# 从零搭建基于 vue-cli 的 uni-app 项目       
 ## 1. 安装 vue-cli
 ```bash
 npm install -g @vue/cli
