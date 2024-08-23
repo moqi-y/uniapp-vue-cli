@@ -9,5 +9,5 @@ export default defineConfig({
     Components({
       resolvers: [WotResolver()]
     }), uni()
-  ],
+  ]
 })
