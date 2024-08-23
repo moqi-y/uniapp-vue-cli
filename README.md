@@ -30,7 +30,7 @@ onLoad((options) => {
   console.log(options) // 获取路由参数
 })
 ```
-4. 路由守卫
+4. 路由守卫     
 路由守卫在`src/router/index.ts`文件内，可自行修改配置
 ```javascript
 // src\router\index.ts
